@@ -1,0 +1,41 @@
+.chat-message-received {
+  display: flex;
+  margin: 10px;
+  flex-direction: row;
+}
+
+.chat-message-sent {
+  display: flex;
+  margin: 10px;
+  flex-direction: row-reverse;
+}
+.receivedMessage {
+  display: flex;
+}
+.avatarPhoto {
+  width: 50px;
+  height: auto;
+  border-radius: 40px;
+}
+
+.discussion {
+  padding: 0px 20px;
+}
+
+.name {
+  font-weight: bolder;
+}
+
+.sentMessageContent {
+  background: dodgerblue;
+  padding: 12px;
+  border-radius: 15px;
+  color: white;
+}
+
+.receivedMessageContent {
+  background: #f2f2f2;
+  padding: 12px;
+  border-radius: 15px;
+  color: black;
+}
