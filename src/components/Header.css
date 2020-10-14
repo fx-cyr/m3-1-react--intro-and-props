@@ -1,4 +1,7 @@
 header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100px;
   background-color: #f9f9f9;
   /* 
@@ -7,4 +10,22 @@ header {
   */
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15),
     0px 1px 0.5px rgba(0, 0, 0, 0.075);
+}
+
+.chatMember {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.memberIcon {
+  width: 50px;
+  height: auto;
+  border-radius: 40px;
+}
+
+.memberName {
+  position: absolute;
+  top: 60px;
+  font-weight: bolder;
 }
